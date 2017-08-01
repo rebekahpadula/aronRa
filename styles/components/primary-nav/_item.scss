@@ -1,0 +1,15 @@
+@mixin base {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+
+    &:first-child {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0;
+    }
+}
+
+&__item {
+    @include base;
+}

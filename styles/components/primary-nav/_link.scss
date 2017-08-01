@@ -1,0 +1,7 @@
+@mixin base {
+    color: white;
+}
+
+&__link {
+    @include base;
+}

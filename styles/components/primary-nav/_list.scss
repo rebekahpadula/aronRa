@@ -1,0 +1,10 @@
+@mixin base {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+}
+
+&__list {
+    @include base;
+}

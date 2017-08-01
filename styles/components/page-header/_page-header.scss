@@ -1,0 +1,10 @@
+@mixin base {
+    background-color: #111;
+    padding: 15px 40px;
+
+    @include contain-content;
+}
+
+.page-header {
+    @include base;
+}

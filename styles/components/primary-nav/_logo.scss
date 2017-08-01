@@ -1,0 +1,7 @@
+@mixin base {
+    vertical-align: middle;
+}
+
+&__logo {
+    @include base;
+}
