@@ -1,8 +1,8 @@
 @mixin base {
-    max-width: 1200px;
     margin: 0 auto;
+    display: block;
 }
 
-.page-content {
+&__image {
     @include base;
 }
