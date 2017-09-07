@@ -1,0 +1,7 @@
+@mixin base {
+    padding: 2rem;
+}
+
+&__paragraph {
+    @include base;
+}

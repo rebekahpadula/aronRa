@@ -2,11 +2,10 @@
 @import 'variables';
 
 @import 'components/primary-nav/primary-nav';
+@import 'components/banner/banner';
 @import 'components/page-wrapper/page-wrapper';
 @import 'components/primary-nav/primary-nav';
 @import 'components/page-header/page-header';
-@import 'components/cards/cards';
-@import 'components/card/card';
 
 
 
@@ -23,10 +22,10 @@ body {
     padding: 0;
     margin: 0;
     font-size: 1.8rem;
+    font-family: Encode Sans;
 }
 
 ul {
     padding: 0;
     margin: 0;
 }
-

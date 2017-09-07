@@ -1,6 +1,7 @@
 @mixin base {
-    background-color: #111;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.89), 10%, rgba(0, 0, 0, 0.8));
     padding: 15px 40px;
+    // border: 1px solid pink;
 
     @include contain-content;
 }
